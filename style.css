@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 50px;
+}
+
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(hero.jpg);
+  height: 60vh;
+}
+
+footer {
+  margin-top: 9rem;
+}
+
+footer ul li {
+  list-style: none;
+}
